@@ -1,0 +1,57 @@
+.ASDF34{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(orange,purple);
+}
+.informacoes{
+    width: 100%;
+    background-color: #313131;
+    height: 10vh;
+    justify-content: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+.formulario{
+    width: auto;
+    background-color: rgba(110, 114, 111, 0.9);
+    flex-direction: column;
+    display: flex;
+    border-radius: 24px;
+    margin: 10px;
+    padding: 20px;
+}
+.informacoes2{
+    height: 50vh;
+    flex-direction: row;
+    display: flex;
+}
+.info1,.info2{
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    justify-content: space-around;
+}
+.info1,.info2 label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #191919;
+}
+.btnvoltar{
+    height: 10%;
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}

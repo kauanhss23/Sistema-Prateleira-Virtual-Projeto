@@ -1,0 +1,88 @@
+usuario teria acesso a consultas e alugamentos de livros
+
+funcionario teria acesso a consultas, cadastros e alteracoes de registros
+dos livros
+
+gerente teria acesso a gerenciamento aonde ele veria a quantidade de livros vendidos 
+do mes, consiguiria ver os lucros do mes, poderia ver o numero de funcionario no sistema
+poderia remover um funcionario e tbm poderia  adicionar um novo funcionario,
+
+
+tb_livro:
+titulo 		- 	varchar 
+autor(a) 	- 	varchar
+n° de serie 	- 	varchar 
+editora 	- 	varchar
+Numero de paginas - 	int
+sinopse 	- 	varchar
+data de publicacao -	date
+linguagem original - 	varchar
+edicao do livro - 	int
+genero 		- 	varchar
+preco 		- 	decimal
+
+tb_login:
+email 		- 	varchar
+senha 		- 	varchar
+perfil	 	- 	varchar
+
+
+
+tb_cliente:
+nome 		- 	varchar
+data de nascimento - 	datetime
+cpf 		- 	varchar
+rg 		- 	varchar
+
+id_login forekeing key (tb_login)
+
+
+tb_funcionario:
+nome 		- 	varchar
+nascimento 	- 	datetime
+cpf 		- 	varchar
+cep 		- 	varchar
+rg 		- 	varchar
+N° carteira de trabalho - varchar
+perfil 		- 	varchar
+carga horaria 	- 	varchar
+
+id_login foreing key (tb_login)
+
+
+tb_compra: 
+data de compra	-	datetime
+tipo de pagamento	varchar	
+vl_total	-	decimal
+
+id_cliente 	-	int
+foreign ket(id_cliente) tb_cliente(id_cliente)
+
+
+tb_livro_compra:
+id_livro 	- 	int
+id_compra 	-	int
+
+foreing key (id_livro) tb_livro(id_livro)
+foreing key (id_compra) tb_compra(id_compra)
+
+
+seriam 5 tabelas:
+tb_cliente
+tb_funcionario
+tb_livro
+tb_compra
+tb_login
+tb_livro_compra
+
+
+
+ligacoes de tabela:
+
+tb_livro 	N:N 	tb_compra 	==	tb_livro_compra
+tb_funcionario 	1:N 	tb_login
+tb_cliente 	1:N 	tb_login
+tb_compra 	1:N 	tb_cliente
+
+alter table tb_compra 
+add vl_total decimal (15,2);

@@ -1,0 +1,39 @@
+-GERENTE
+
+GERENCIAMENTO
+-->get
+
+GEGENCIAMENTO DE FUNCIONÁRIO
+-->get
+-->delete
+
+ADICIONAR FUNCIONÁRIO
+-->post
+
+
+-FUNCIONÁRIO
+
+CADASTRAR LIVRO
+-->post
+
+CONSULTAR LIVRO
+-->get
+-->delete
+-->put
+
+
+-CLIENTE
+
+HISTÓRICO DE COMPRAS
+-->get
+
+FAZER UMA COMPRA
+-->post
+-->get
+
+PERFIL
+-->get
+
+
+
+

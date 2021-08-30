@@ -1,0 +1,11 @@
+GERENTE 
+chefe@gmail.com	
+1234		
+
+FUNCIONÁRIO
+funcionario@gmail.com
+123456
+
+CLIENTE
+bruno@gmail.com	
+1313

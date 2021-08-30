@@ -1,0 +1,90 @@
+.maingerente{
+    background-color:orange;
+    width: 100vw;
+    text-align: center;
+}
+
+.addfuncionario{
+    height: 40vh;
+    width: 20vw;
+    background-color: aqua;
+}
+
+.gerenfuncionario{
+    height: 40vh;
+    width: 20vw;
+    background-color: aqua;
+
+}
+
+.gerenfinancas{
+    height: 40vh;
+    width: 20vw;
+}
+
+.prigerente{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    display: flex;
+}
+
+#grandecontainer{
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    height: 80vh;
+    margin: 20px;
+}
+
+#container2{
+    align-items: center;
+    display: flex;
+    height: 70vh;
+    width: 30vw;
+    justify-content: center;
+    margin: 10px;
+    background-image: linear-gradient(orange,purple);
+}
+#container1{
+    margin: 10px;
+    height: 70vh;
+    width: 30vw;
+    border-right: 1px solid darkgray;
+}
+#container3{
+    margin: 10px;
+    height: 70vh;
+    width: 30vw;
+    border-left: 1px solid darkgray;
+}
+
+#sub-container2{
+    height: auto;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+#sub-botao{
+    margin: 10px;
+    width: 150px;
+}
+#thirdgerente{
+    width: 100vw;
+    height: 10vh;
+    background-color: purple;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#thirdgerente h2{
+    color: white;
+}
+
+h1,h2{
+    color: whitesmoke;
+}

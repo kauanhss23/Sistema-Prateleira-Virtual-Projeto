@@ -1,0 +1,78 @@
+.mainfuncionario{
+    flex-direction: column;
+    display: flex;
+}
+
+.titulofuncionario{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100vw;
+    background-color: orange;
+    text-align: center;
+}
+
+.titulofuncionario h2{
+    color: white;
+}
+
+.cadastrarlivro, .consultarlivro, .bvoltar{
+    margin: 15px;
+}
+
+.prifuncionario{
+    background-color: whitesmoke;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+h2, h3{
+    color: black;
+}
+
+#container2menu{
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    display: flex;
+    width: auto;
+}
+
+#sub-contenty1{
+    height: 70vh;
+    width: 30vw;
+    border-right: 1px solid darkgray;
+    margin: 15px;
+}
+#sub-contenty2{
+    height: 70vh;
+    width: 30vw;
+    background-image: linear-gradient(orange,purple);
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#sub-contenty3{
+    height: 70vh;
+    width: 30vw;
+    border-left: 1px solid darkgray;
+    margin: 15px;
+}
+#contenty2{
+    width: auto;
+    height: auto;
+}
+
+#contenty3{
+    width: 100vw;
+    height: 10vh;
+    background-color: purple;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#contenty3 h3{
+    color: white;
+}

@@ -1,0 +1,106 @@
+.um{
+    margin-top: 0%;
+    padding: 0%;
+    height: 10vh;
+    background-repeat: no-repeat;   
+    background-color: orange;
+}
+ 
+.dois{
+    margin-top: 0%;
+    padding: 0%;
+    height: 83vh;
+    background-repeat: no-repeat;   
+    background-size: 100% 100%;
+}
+
+
+.pai{
+    height: 68vh;
+    width: 43vw;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    font-family: sans-serif;
+    margin-top: 3%;
+    margin-left: 28%;
+    background-image: linear-gradient(orange,purple);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pessoa{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+}
+.niver{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+}
+
+.cpf{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+}
+
+.rg{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+}
+
+.cartao{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+}
+
+.rua{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+}
+
+.perfi1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#voltar1{
+    border:0;
+    height: 30px;
+    width: 110px;
+    margin-bottom: 25px;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-left: 80%;
+}
+
+
+.baixo{
+    height: 9vh;
+    background-color: purple;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#meuperfilvoltar{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.color{
+    color: white;
+}

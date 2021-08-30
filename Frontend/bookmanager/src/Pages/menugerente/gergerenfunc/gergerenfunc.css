@@ -1,0 +1,54 @@
+.maingergerenfunc{
+    flex-direction: row;
+    display: flex;
+    margin: 5px;
+    height: 20vh;
+    width: auto;
+}
+
+.prigerenfunc{
+    margin-top: 0%;
+    padding: 0%;
+    height: 100vh;
+    flex-direction: row;
+    background-image: linear-gradient(orange,purple);
+}
+
+.bvoltargerenfunc{
+    flex-direction: row;
+}
+
+.titulo{
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-color: purple;
+    background-position: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tableger{
+    height: 10px;
+}
+
+.controladordetable2{
+    width: 600px;
+}
+.divagergeren{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 140px;
+    height: 15vh;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.movimentacao{
+    margin: 20px;
+}
+.m3{margin: 3px;}

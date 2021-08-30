@@ -1,0 +1,14 @@
+.telatopcliente{
+    height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+#tabelatopcliente{
+    padding: 30px;
+    position: relative;
+}
+.voltartopcliente{
+    display: flexbox;
+}

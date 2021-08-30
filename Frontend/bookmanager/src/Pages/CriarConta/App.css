@@ -1,0 +1,73 @@
+.body{
+    background-image: linear-gradient(orange,purple);
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 105vh;
+    justify-content: center;
+}
+#segblococriarconta{
+    flex-direction: column;
+    display: flex;
+    margin: 15px;
+    padding: 5px;;
+    justify-content: space-between;
+}
+#segblococriarconta input{
+    margin: 10px;
+    outline: none;
+    border: 1px solid red;
+    background-color: #191919;
+    color: whitesmoke;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.rodape h3{
+    color: black;
+    margin: 0px;
+    padding: 10px;
+}
+
+#formcriarconta{
+    height: auto;
+    flex-direction: row;
+    display: flex;
+    background-color: #191919;
+    padding: 5px;
+}
+#priblococriarconta{
+    margin: 15px;
+    flex-direction: column;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#priblococriarconta label{
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.eventos{
+    height: auto;
+    width:auto;
+    margin: 10px;
+    background-color: #191919;
+}
+
+.acoes{
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+.evento1, .evento2{
+    width: 120px;
+    margin-bottom: 9px;
+}
+
+.termos{
+    margin: 5px;
+    text-transform: capitalize;
+    color: white;
+}

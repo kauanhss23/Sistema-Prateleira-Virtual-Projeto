@@ -1,0 +1,89 @@
+.titulopaginserir{
+    color: #191919;
+    margin: 5px;
+}
+#red{
+    color: red;
+    margin: 10px;
+}
+.containertelainserir{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(orange,purple);
+    height: 100%;
+}
+.formularioinserirlivro{
+    border-radius: 24px;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+}
+.entradadedados{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container2inserirlivro{
+    background-color: rgba(95, 95, 95, 0.781);
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid #191919;
+    justify-content: space-around;
+    display: flex;
+}
+.container2inserirlivro label{
+    color: white;
+}
+.container2inserirlivro input{
+    border: 1px solid black;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+}
+
+.container3inserirlivro{
+    border-radius: 20px;
+    background-color: rgba(95, 95, 95, 0.781);
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    border: 1px solid #191919;
+}
+.container3inserirlivro input[type="text"], input[type="date"]{
+    border: 1px solid black;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+}
+.container3inserirlivro textarea{
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+.container3inserirlivro input[type="file"]{
+    color:white;
+    outline: none;
+}
+
+.container3inserirlivro label{
+    color: white;
+}
+
+.eventostelainserir{
+    margin: 17.5px;
+    width: 20vw;
+    justify-content: space-evenly;
+    display: flex;
+}
+.acc{
+    width: 100px;
+}

@@ -1,0 +1,36 @@
+#parterocha{
+    width: 100%;
+    background-color: #800080;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pri{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.secvendasmes{
+    background-color: orange;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.tabelavendasmes{
+    margin: 0px;
+    margin: 10px;
+    width: 50vw;
+}
+.colorwhite{
+    color: white;
+}
+.botaozin{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

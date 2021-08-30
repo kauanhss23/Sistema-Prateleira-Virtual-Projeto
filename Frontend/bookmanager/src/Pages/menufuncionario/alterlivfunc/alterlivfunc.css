@@ -1,0 +1,66 @@
+.telaalterar{
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: linear-gradient(orange,purple);
+}
+
+.manager{
+    height: auto;
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}   
+
+.planilha{
+    height: auto;
+    border-radius: 25px;
+    width: 50vw;
+    flex-direction: row;
+    background-color: #191919;
+}
+.planilha input{
+    outline: none;
+    border: 2px solid red;
+    border-radius: 24px;
+    text-align: center;
+}
+.planilha input[type="date"]
+{
+    outline: none;
+    border: 2px solid red;
+    border-radius: 24px;
+    text-align: center;
+    display: flex;
+}
+.planilha label{
+    color: white;
+}
+
+.entradas{
+    flex-direction: column;
+    display: flex;
+    margin: 15px;
+}
+
+.botoesalterar{
+    margin: 10px;
+    justify-content: space-evenly;
+    width: 30vw;
+    display: flex;
+}
+
+
+.titulotelaalterar{
+    color: black;
+    margin: 5px;
+}
+.entradas textarea{
+    margin: 0px;
+    width: auto;
+    border-radius: 22px;
+    border: 2px solid red;
+    outline: none;
+}

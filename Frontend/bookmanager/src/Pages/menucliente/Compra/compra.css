@@ -1,0 +1,110 @@
+
+#corpotelacompra{
+    margin: 0px;
+    padding: 0px;
+    background-image: repeating-linear-gradient(orange,purple);
+}
+
+#mae{
+    height: 100vh;
+    flex-direction: column;
+}
+#titulocompralivro{
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#containerimglivro{
+    height: auto;
+    width: 100vw;
+    justify-content: space-around;
+    display: flex;
+}
+.capadolivrocompra{
+    height: 200px;
+    width: 200px;
+}
+#imagemcapalivro{
+    margin: 10px;
+}
+
+#informacoesrelevante{
+    height: auto;
+    width:70vw;
+    flex-direction: row;
+    display: flex;
+    margin: 10px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+#outrocontainer{
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+}
+#maisumcontainer{
+    height: auto;
+    width: 400px;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+#maisumcontainer textarea{
+    width: 300px;
+}
+
+#informacoesrelevante input{
+    width: auto;
+    margin: 5px;
+}
+
+#valorlivrocompra{
+    margin: 5px;
+}
+#acaodecompra{
+    margin: 5px;
+    flex-direction: column;
+    
+}
+textarea{
+    margin: 5px;
+    width: 500px;
+}
+
+#caracteristicasimportantes{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+}
+#minititulo{
+    margin:20px;
+    color: black;
+}
+#informacoesessenciais{
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
+}
+#infocontainer1{
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    display: flexbox;
+    margin: 10px;
+}
+#espaconasinformacoes{
+    margin: 10px;
+}
+
+#infocontainer2{
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    display: flexbox;
+    margin: 10px;
+}

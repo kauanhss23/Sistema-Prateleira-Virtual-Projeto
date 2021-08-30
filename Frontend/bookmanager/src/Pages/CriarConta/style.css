@@ -1,0 +1,42 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+    background-size: 100% 100%;
+}
+
+.corpo{
+    height: 0px;
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+}
+
+.bloco{
+    margin-top: 120px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 23px;
+    border: 5px solid black;
+    align-items: center;
+    background-color: white;
+}
+
+.termo1,.termo2,.termo3,.termo4,.termo5{
+    margin: 10px;
+}
+
+.evento3{
+    width: vw;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.master{
+    background-image: linear-gradient(orange,purple);
+    height: 980px;
+}
